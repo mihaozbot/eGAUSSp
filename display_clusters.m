@@ -1,4 +1,7 @@
-
+c = eGAUSSp.c;
+n = eGAUSSp.n;
+mu = eGAUSSp.mu;
+S = eGAUSSp.S;
 
 angle = 0:pi/100:2*pi; %Angles around a circle
 xy = zeros(length(angle),2,c); %Points on the ellipse
